@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loader</title>
+    <style>
+        .div1{
+            background-color: rgb(251, 250, 250);
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            /* border: 16px solid #252222; */
+            border-top:16px solid rgb(192, 240, 126);
+            border-bottom:16px solid rgb(160, 154, 224); 
+            border-right:16px solid rgb(243, 164, 211); 
+            border-left:16px solid rgb(144, 230, 245);  
+            animation: loader 1s steps(81) 0s infinite normal;
+               
+        }
+        @keyframes loader{
+            from{
+                transform:rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+        /* .div2{
+            background-color: rgb(191, 176, 176);
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 16px solid black;
+            border-top:16px solid rgb(8, 8, 158); 
+            
+
+        }
+        .div0{
+            display: inline;
+            padding: 20px;
+            margin: 20px;  
+            // width: 200px; 
+        } */
+    </style>
+</head>
+<body>
+    <!-- <div class="div0"> -->
+    <div class="div1">
+
+     </div>
+     <!--
+    <div class="div1">
+
+    </div>
+    </div> -->
+</body>
+</html>

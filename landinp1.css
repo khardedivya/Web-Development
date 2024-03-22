@@ -1,0 +1,231 @@
+body {
+    /* background-image: url(sanjivanicollae.jpg);
+background-size: cover; */
+
+}
+
+.navbar a {
+    margin: 20px;
+    padding: 30px;
+    text-decoration: none;
+    /* color: aliceblue; */
+
+}
+
+.navbar {
+    /* background-color: black; */
+    /* width: 30%; */
+    display: flex;
+    justify-content: center;
+    /* width: auto; */
+
+    /* opacity: 0.2; */
+    /* background: size 100px; */
+    /* background-repeat: no-repeat; */
+    height: 600px;
+    width:1200px;
+    /* float: right;  */
+
+    background-image: url("vote4.jpg");
+    background-size: cover;
+    /* margin: 30px; */
+    /* padding: 30px; */
+    margin-bottom: 30px;
+    margin-left: 200px;
+
+
+}
+
+.navbar a {
+    color: rgb(6, 4, 4);
+}
+
+.left {
+    /* display:flex; */
+    /* float: right; */
+    /* width:70%; */
+    margin-top: 20px;
+    margin-right: 10%;
+    text-align: center;
+    float: right;
+}
+
+.right img {
+    height: 300px;
+    margin-top: 20px;
+
+    /* border: 2px solid black; */
+    border-radius: 9px;
+    /* display: flex;
+float: left; */
+    /* margin-left: 400px; */
+
+}
+
+.left2 {
+    /* display:flex; */
+    /* float: right; */
+    /* width:70%; */
+    margin-top: 20px;
+    margin-right: 10%;
+    text-align: center;
+    float: right;
+}
+
+.right2 img {
+    height: 300px;
+    margin-top: 20px;
+
+    /* border: 2px solid black; */
+    border-radius: 9px;
+    /* display: flex;
+float: left; */
+    /* margin-left: 400px; */
+
+}
+
+.left3 img {
+    float: left;
+    height: 300px;
+    margin-left: 120px;
+    border-radius: 9px;
+    margin-top: 20px;
+}
+
+.right3 {
+    margin-top: 20px;
+    margin-right: 40px;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+}
+
+.side {
+    display: flex;
+    right: 0;
+    margin: 40px;
+}
+
+button {
+    margin: 8px;
+    padding: 8px;
+    border-radius: 9px;
+    width: 80PX;
+    color: aliceblue;
+    border: 2px solid rgb(7, 130, 56, 0.8);
+    background-color: rgb(7, 130, 56, 0.8);
+    font-size: large;
+}
+
+.main {
+    /* width: 1000px; */
+    /* justify-content: center;
+align-items: center;
+background-color: aqua; */
+
+}
+
+h1 {
+    text-align: center;
+    /* opacity:; */
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1 {
+    background-color: rgb(160, 164, 228);
+    width: 120px;
+    height: 70px;
+    border-radius: 20px;
+    background-image: url("vote9.jpg");
+    background-size: cover;
+
+}
+
+.box2 {
+    background-color: rgb(214, 214, 64);
+    width: 120px;
+    height: 70px;
+    border-radius: 20px;
+    background-image: url("vote.png");
+    background-size: cover;
+
+}
+
+.box3 {
+    background-color: rgb(212, 1, 36);
+    width: 120px;
+    height: 70px;
+    border-radius: 20px;
+    background-image: url("vote.png");
+    background-size: cover;
+
+
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+    /* align-items: center; */
+    background-color: rgba(68, 68, 69, 0.797);
+    /* transform: translatex(550px); */
+    margin-top: 200px;
+    margin: 90px;
+
+    margin: 100px 40px;
+    /* padding-top: 120px; */
+    transform: translatex(-160px);
+    border-radius: 30px;
+
+}
+
+.imcard {
+    background-image: url("logo.gif");
+    background-size: cover;
+    /* background-size: auto; */
+    width: 300px;
+    height: 300px;
+    background-color: rgb(38, 161, 118);
+    transform: translatey(-100px);
+    /* border-radius: 30px; */
+
+}
+
+.para1 {
+    transform: translatey(300px);
+    color: rgb(11, 11, 11);
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+}
+
+.para2 {
+    transform: translatey(400px);
+    text-align: center;
+}
+h1.h-primary:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: brown;
+
+}
+.main h1:hover{
+    color: #f0ffff;
+
+  }
+  footer{
+    background-color:rgb(57, 57, 57);
+   color: aliceblue; 
+   /* margin-top: 600px; */
+    width:95rem;
+     text-align: center;
+  }
+ .left3 .right:hover{
+    transform:scale(1.1);
+  }
